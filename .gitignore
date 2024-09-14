@@ -133,5 +133,5 @@ local/
 docs/
 versionfile.txt
 test.txt
-test*
+test*/
 *.exe
