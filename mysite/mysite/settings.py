@@ -125,6 +125,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# The Debug Toolbar is shown only if your IP address is listed in Django’s INTERNAL_IPS setting
+# https://django-debug-toolbar.readthedocs.io/en/latest/installation.html#configure-internal-ips
+
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
